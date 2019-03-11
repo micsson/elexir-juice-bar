@@ -1,0 +1,238 @@
+$companyGreen: #19d300;
+$companyRed: #cc0033;
+$companyYellow: #ffcc00;
+
+
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+    background-color: #2A2A2A;
+}
+h1 {
+    margin: 0 auto;
+    width: 200px;
+    min-width: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 3s;
+         -o-transition-duration: 3s;
+            transition-duration: 3s;
+}
+h1:hover{
+            -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                    transform: scale(1.1);
+            
+        }
+
+
+h2 {
+   
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $companyGreen;
+}
+
+h3{
+    
+    color: $companyRed;
+    text-align: center;
+   
+    
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 1s;
+         -o-transition-duration: 1s;
+            transition-duration: 1s;
+}
+li:hover{
+            -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                    transform: scale(1.1);
+            
+        }
+
+a:hover {
+    color: $companyYellow;
+}
+
+
+p{
+    color:white;
+    text-align: center;
+}
+
+
+.fa-bars {
+
+    font-size: 40px;
+    color: $companyGreen;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 1s;
+         -o-transition-duration: 1s;
+            transition-duration: 1s;
+    color: $companyGreen;
+}
+.fa-bars:hover{
+            -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                    transform: scale(1.1);
+            
+        }
+
+.week_special_box {
+
+    margin: 20px;
+    width: 100vw;
+    height: 320px;
+    text-align: center;
+    
+
+}
+
+.week_special_circle {
+    
+    width: 300px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    
+}
+.week_special_circle:hover{
+            -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                    transform: scale(1.1);
+            
+        }
+
+
+.landing_page_box{
+    margin: 20px 20px 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.landing-page_circle{
+    
+    height: 300px;
+    width: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    
+}
+.landing-page_circle:hover{
+            -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                    transform: scale(1.1);
+}
+
+.centered {
+    position: relative;
+    top: -50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-family: 'Vidaloka', serif;
+    font-size: 3em;
+    color: $companyYellow;
+    text-align: center;
+
+}
+
+.gallery_container {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.gallery_img {
+    width: 200px;
+    height: 200px;
+    background-color: $companyYellow;
+    margin: 20px;
+    border-radius: 50%
+}
+
+.about {
+    width: 50vw;
+    height: 50vh;
+    background-color: $companyRed;
+    margin: 60px;
+}
+
+.about_box{
+    text-align: center;
+}
+
+
+.mapouter {
+    text-align: right;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+    
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 400px;
+    
+
+}
+
+
+
+
+footer {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    background-color: #2A2A2A;
+    color: $companyGreen;
+    
+}
